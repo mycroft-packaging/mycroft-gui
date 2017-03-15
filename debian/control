@@ -1,0 +1,24 @@
+Source: plasma-mycroft
+Section: kde
+Priority: optional
+Maintainer: Clive Johnston <clivejo@kubuntu.org>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules,
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.8
+Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/plasma-mycroft
+Vcs-Git: git://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/plasma-mycroft
+
+Package: plasma-mycroft
+Architecture: any
+Depends: plasma-workspace,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
+ Tool to integrate Mycroft with your KDE Plasma 5 Desktop
+ .
+ It adds a set of plasmoid, plugins and services to the KDE Plasma Workspace.

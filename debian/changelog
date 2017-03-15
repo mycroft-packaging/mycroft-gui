@@ -1,0 +1,5 @@
+plasma-mycroft (1.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Initial packaging for plasma-mycroft
+
+ -- Clive Johnston <clivejo@kubuntu.org>  Wed, 15 Mar 2017 11:27:03 +0000
