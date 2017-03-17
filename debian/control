@@ -21,6 +21,7 @@ Architecture: any
 Depends: plasma-workspace,
          pyqt5-dev,
          python-dbus,
+         python-pyqt5,
          python3-sip-dev,
          sip-dev,
          ${misc:Depends},
