@@ -18,7 +18,13 @@ Vcs-Git: git://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/plasm
 
 Package: plasma-mycroft
 Architecture: any
-Depends: plasma-workspace, ${misc:Depends}, ${shlibs:Depends}
+Depends: plasma-workspace,
+         pyqt5-dev,
+         python-dbus,
+         python3-sip-dev,
+         sip-dev,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
  Tool to integrate Mycroft with your KDE Plasma 5 Desktop
  .
