@@ -23,11 +23,13 @@ Depends: mycroft-core,
          pyqt5-dev,
          python-dbus,
          python-pyqt5,
-         python3-sip-dev,
-         sip-dev,
+         python-sip,
+         python-sip-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
  Tool to integrate Mycroft with your KDE Plasma 5 Desktop
  .
- It adds a set of plasmoid, plugins and services to the KDE Plasma Workspace.
+ It adds a set of plasmoids, plugins and services to the KDE Plasma Workspace.
+ .
+ These can be added to your desktop, or any panels on your workspace.
