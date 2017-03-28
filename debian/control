@@ -18,8 +18,7 @@ Vcs-Git: git://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/plasm
 
 Package: plasma-mycroft
 Architecture: any
-Depends: mycroft-core,
-         plasma-workspace,
+Depends: plasma-workspace,
          pyqt5-dev,
          python-dbus,
          python-pyqt5,
