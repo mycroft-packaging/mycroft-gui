@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: plasma-mycroft-mobile
-Source: https://projects.kde.org/projects/playground/base/plasma-mycroft-mobile
+Upstream-Name: plasma-mycroft-gui
+Source: https://cgit.kde.org/scratch/davidedmundson/mycroftng.git/
 
 Files: *
 Copyright: 2017, Aditya Mehra <Aix.m@outlook.com>

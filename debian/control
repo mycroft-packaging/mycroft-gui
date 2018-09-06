@@ -1,4 +1,4 @@
-Source: plasma-mycroft-mobile
+Source: plasma-mycroft-gui
 Section: kde
 Priority: optional
 Maintainer: KDE neon <neon@kde.org>
@@ -14,7 +14,7 @@ Build-Depends: cmake,
                qtdeclarative5-dev
 Standards-Version: 3.9.8
 
-Package: plasma-mycroft-mobile
+Package: plasma-mycroft-gui
 Architecture: any
 Depends: plasma-workspace,
          pyqt5-dev,
