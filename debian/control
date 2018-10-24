@@ -26,6 +26,7 @@ Depends: plasma-workspace,
          python-sip-dev,
          mycroft-core,
          qml-module-qtquick-particles2,
+         qml-module-qtwebview,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
