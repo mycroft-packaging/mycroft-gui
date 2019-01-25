@@ -1,4 +1,4 @@
-Source: mycroft-gui
+Source: mycroft-ui
 Section: kde
 Priority: optional
 Maintainer: KDE neon <neon@kde.org>
@@ -17,7 +17,7 @@ Build-Depends: cmake,
                qtdeclarative5-dev
 Standards-Version: 3.9.8
 
-Package: mycroft-gui
+Package: mycroft-ui
 Architecture: any
 Depends: plasma-workspace,
          pyqt5-dev,
