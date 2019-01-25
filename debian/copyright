@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: mycroft-ui
+Upstream-Name: mycroft-gui
 Source: https://cgit.kde.org/scratch/davidedmundson/mycroftng.git/
 
 Files: *

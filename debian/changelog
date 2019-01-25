@@ -1,5 +1,5 @@
-mycroft-ui (1.0-0ubuntu1) UNRELEASED; urgency=medium
+mycroft-gui (1.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * Initial packaging for mycroft-ui
+  * Initial packaging for mycroft-gui
 
  -- Clive Johnston <clivejo@kubuntu.org>  Wed, 15 Mar 2017 11:27:03 +0000
