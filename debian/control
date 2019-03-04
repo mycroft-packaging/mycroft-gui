@@ -7,14 +7,14 @@ Build-Depends: cmake,
                extra-cmake-modules,
                kio-dev,
                libqt5websockets5-dev,
-               libqt5webview5-dev,
                libkf5i18n-dev,
                libkf5notifications-dev,
                libkf5plasma-dev,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev,
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
+               qtwebengine5-dev
 Standards-Version: 3.9.8
 
 Package: mycroft-gui
@@ -26,7 +26,7 @@ Depends: plasma-workspace,
          python-sip,
          python-sip-dev,
          qml-module-qtquick-particles2,
-         qml-module-qtwebview,
+         qml-module-qtwebengine,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Mycroft Ai Plasmoid and Skills for KDE Plasma 5 Desktop
