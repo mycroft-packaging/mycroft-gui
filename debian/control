@@ -14,7 +14,7 @@ Build-Depends: cmake,
                pkg-kde-tools,
                qtbase5-dev,
                qtdeclarative5-dev,
-               qtwebengine5-dev
+               plasma-workspace-dev
 Standards-Version: 3.9.8
 
 Package: mycroft-gui
