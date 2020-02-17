@@ -22,11 +22,6 @@ Standards-Version: 3.9.8
 Package: mycroft-gui
 Architecture: any
 Depends: plasma-workspace,
-         pyqt5-dev,
-         python-dbus,
-         python-pyqt5,
-         python-sip,
-         python-sip-dev,
          qml-module-qtquick-particles2,
          qml-module-qtwebengine,
          ${misc:Depends},
