@@ -15,7 +15,7 @@ Build-Depends: cmake,
                qtbase5-dev,
                qtdeclarative5-dev,
                libqt5webview5-dev,
-               qtmultimedia5-dev
+               qtmultimedia5-dev,
                plasma-workspace-dev,
                libkf5dbusaddons-dev
 Standards-Version: 3.9.8
